@@ -1,0 +1,5 @@
+#お気に入りボタンの設置
+<%= render 'favorites/favorite_button', microposts: @microposts %>
+
+#micropost.rbに設置してみたい(実験）
+has_many :users, through: :favorites
